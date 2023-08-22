@@ -21,7 +21,7 @@ function Quote() {
         <button className={styles.con3} onClick={getQuote}>Get Quote</button>
         {/* { quote ? <p>{quote}</p> : null }  */}
                 {/* or */}
-        {quote && <p>{quote}</p>}
+        {quote && <p className={styles.con4} >{quote}</p>}
       </div>
     </div>
   );
